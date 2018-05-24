@@ -2,14 +2,14 @@
   "builders": [{
     "type": "azure-arm",
 
-    "client_id": "0831b578-8ab6-40b9-a581-9a880a94aab1",
-    "client_secret": "P@ssw0rd!",
-    "tenant_id": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-    "subscription_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx",
-    "object_id": "a7dfb070-0d5b-47ac-b9a5-cf214fff0ae2",
+    "client_id": "82c7b1f6-aad2-40d3-8096-d6cb98f8ae43",
+    "client_secret": "@Zure2018$",
+    "tenant_id": "bddddbb1-db54-40d5-b230-0609bcef2068",
+    "subscription_id": "be811814-6f67-4dc5-88c0-52158ef178aa",
+    "object_id": "f5407004-34e5-4438-ba4e-6d10d24f07bd",
 
-    "managed_image_resource_group_name": "myResourceGroup",
-    "managed_image_name": "myPackerImage",
+    "managed_image_resource_group_name": "PACKER-RG",
+    "managed_image_name": "win2016iis",
 
     "os_type": "Windows",
     "image_publisher": "MicrosoftWindowsServer",
@@ -23,11 +23,11 @@
     "winrm_username": "packer",
 
     "azure_tags": {
-        "dept": "Engineering",
+        "project": "sandbox",
         "task": "Image deployment"
     },
 
-    "location": "East US",
+    "location": "West Europe",
     "vm_size": "Standard_DS2_v2"
   }],
   "provisioners": [{
