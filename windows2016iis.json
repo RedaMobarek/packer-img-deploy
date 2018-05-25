@@ -2,11 +2,11 @@
   "builders": [{
     "type": "azure-arm",
 
-    "client_id": "82c7b1f6-aad2-40d3-8096-d6cb98f8ae43",
-    "client_secret": "@Zure2018$",
-    "tenant_id": "bddddbb1-db54-40d5-b230-0609bcef2068",
-    "subscription_id": "be811814-6f67-4dc5-88c0-52158ef178aa",
-    "object_id": "f5407004-34e5-4438-ba4e-6d10d24f07bd",
+    "client_id": ,
+    "client_secret": ,
+    "tenant_id": ,
+    "subscription_id": ,
+    "object_id": ,
 
     "managed_image_resource_group_name": "PACKER-RG",
     "managed_image_name": "win2016iis",
